@@ -1,0 +1,90 @@
+body {
+    background:url(феникс3.jpeg);
+    }
+    
+    .form2 { 
+        position: absolute;
+        left: 500px;
+        top: 155px;
+        bottom: 400px;
+        margin: 0 auto;
+        height: 357px;
+        width: 163px;
+        padding: 18px;
+        min-height: 20 px;
+    }
+
+
+    .container {
+        margin: 0 auto;
+        width: 800px;
+        min-height: 500px;
+        border: 20px solid rgba(0, 217, 255, 0);
+        background-color:rgba(0, 217, 255, 0.479);
+    }
+    
+    .h1 {
+        margin-left: 220px;
+        background-color: rgba(255, 115, 0, 0.808);
+        width: 425px;
+        line-height: 30px;
+    }
+    
+    .article {
+        background-color: rgba(230, 39, 14, 0.575);
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        height: 413px;
+        width: 540px;
+        padding: 10px;
+        float: left;
+    }
+    
+    .aside {
+        position: absolute;
+        left: 810px;
+        margin: 0 auto;
+        height: 357px;
+        width: 163px;
+        padding: 18px;
+        min-height: 20 px;
+        border: 20px solid rgba(0, 217, 255, 0);
+        background-color:rgba(255, 115, 0, 0.808);
+    }
+    
+    .footer {
+        margin: 0 auto;
+        width: 800px;
+        min-height: 20 px;
+        border: 20px solid rgba(0, 217, 255, 0);
+        background-color:rgba(255, 115, 0, 0.808);
+    }
+
+    .button-1 {
+        color: #232323;
+        background: transparent;
+        border: 1px solid #232323;
+        position: relative;
+        font-size: 14px;
+        letter-spacing: .3em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 17px 34px 17px 39px;
+        transition: .2s ease-in-out;
+        cursor: pointer;
+    }
+    .button-1:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 100%;
+        height: 100%;
+        background: #ff5e00;
+        z-index: -1;
+        transition: .25s ease;
+        transform: translate(0, 0);
+    }
+    .button-1:hover:before {
+        transform: translate(4px, 4px);
+    }
+    
